@@ -1,8 +1,8 @@
 const { getRepoApi } = require('../services/repo.service');
 
-const getRepo = (_req, res) => {
+const getRepo = async (_req, res) => {
   try {
-    const repo = getRepoApi();
+    const repo = await getRepoApi();
     res.status(200).json(repo);
   } catch (error) {
     console.log('error', error);
