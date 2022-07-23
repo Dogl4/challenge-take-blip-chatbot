@@ -1,0 +1,35 @@
+{
+  "name": "challenge-take-blip-chatbot",
+  "version": "1.0.0",
+  "description": "api for chatbot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dogl4/challenge-take-blip-chatbot.git"
+  },
+  "keywords": [
+    "javaScript",
+    "api",
+    "chatbot"
+  ],
+  "author": "Dogl4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dogl4/challenge-take-blip-chatbot/issues"
+  },
+  "homepage": "https://github.com/Dogl4/challenge-take-blip-chatbot#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
