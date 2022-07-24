@@ -37,10 +37,6 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
 
 ## Rodando API localmente
 
-### Pré-requisitos
-
-  * Instalar o [Node.js](https://nodejs.org/en/ "Link do Node.js")
-
 ### Baixando o repositório
 
 ```bash
