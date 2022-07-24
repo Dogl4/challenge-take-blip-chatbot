@@ -5,7 +5,6 @@ const getRepo = async (_req, res) => {
     const repo = await getRepoApi();
     res.status(200).json(repo);
   } catch (error) {
-    console.log('error', error);
     res.status(500).json({ message: error.message });
   }
 };

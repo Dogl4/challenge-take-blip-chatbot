@@ -27,7 +27,7 @@ const getRepoApi = async () => {
       .sort(sortByDate)
       .slice(0, 5);
   } catch (error) {
-    console.log('error', error);
+    throw new Error(error.message);
   }
 };
 
