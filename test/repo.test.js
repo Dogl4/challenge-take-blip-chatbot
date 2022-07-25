@@ -23,7 +23,7 @@ describe('GET /', () => {
 
     it('should return a list of 5 repos', async () => {
       const response = await request(app).get('/');
-      expect(response.body.length).toBe(5);
+      expect(Object.keys(response.body).length).toBe(5);
     });
 
     it('should return a list of repos with the correct properties', async () => {
@@ -45,8 +45,6 @@ describe('GET /', () => {
 
     it('should return a 500 status code', async () => {
       const response = await request(app).get('/');
-      console.log(response.body);
-      console.log(response.status);
       expect(response.status).toBe(500);
     });
   });
