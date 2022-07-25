@@ -1,4 +1,4 @@
-> [<img alt="Take Blip" height="100" width="auto" src='https://avatars.githubusercontent.com/u/4369522?s=200&v=4'>](https://www.linkedin.com/company/takeblip/ "Logo Take Blip, link para o linkedin da Take Blip")
+> [<img alt="Take Blip" height="100" width="auto" src="https://avatars.githubusercontent.com/u/4369522?s=200&v=4">](https://www.linkedin.com/company/takeblip/ "Logo Take Blip, link para o linkedin da Take Blip")
 
 # Take Blip - Desafio - Chatbot Developer
 
@@ -14,7 +14,7 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
 │   ├── Api
 │   │   └── index.js
 │   └── Flow
-│     └── mybotflow.json
+│       └── mybotflow.json
 ├── index.js
 ├── package.json
 ├── package-lock.json
@@ -23,6 +23,15 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
 │   ├── app.js
 │   ├── controllers
 │   │   └── repo.controller.js
+│   ├── images
+│   │   ├── chat-bot.gif
+│   │   ├── Desafio.png
+│   │   ├── Take.Be.png
+│   │   ├── TakeCharge.png
+│   │   ├── Take.Execellence.png
+│   │   ├── Take.Higher.png
+│   │   ├── Take.Simple.png
+│   │   └── Take.Team.png
 │   ├── routes.js
 │   ├── services
 │   │   └── repo.service.js
@@ -34,6 +43,9 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
     └── repo.test.js
 ```
 </details>
+
+## 📷 Screenshot
+![<img alt="Screenshot do chatbot" height="20" width="20" src="./src/images/chat-bot.gif">](./src/images/chat-bot.gif "Screenshot do chatbot")
 
 ## Rodando API localmente
 
