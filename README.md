@@ -44,9 +44,6 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
 ```
 </details>
 
-## 📷 Screenshot
-![<img alt="Screenshot do chatbot" height="20" width="20" src="./src/images/chat-bot.gif">](./src/images/chat-bot.gif "Screenshot do chatbot")
-
 ## Rodando API localmente
 
 ### Baixando o repositório
@@ -90,3 +87,18 @@ $ npm run test
 # test coverage
 $ npm run test:cov
 ```
+
+## Screenshot
+
+| [<img alt="Screenshot do chatbot" height="500" width="auto" src="./src/images/chat-bot.gif">](./src/images/chat-bot.gif "Screenshot do chatbot") |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| _chat-bot-gif_
+
+## Links
+
+  - [API](https://dogl4-take-blip.herokuapp.com/ "Api no Heroku")
+  - [Chat-bot](https://pedro-douglas-pereira-barreto-rgf3e.chat.blip.ai/?appKey=bG9yYXZhbG9yZXNkYXRha2UxOmRjOTJjMDFjLTlmNzQtNDNmYi05ZGQ3LWQ2MWE5MjUwMjE5Mw== "Link do chatbot dentro da blip")
+
+## License
+
+  Dogl4/challenge-take-blip-chatbot is [MIT licensed](./LICENSE)
