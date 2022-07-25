@@ -16,6 +16,7 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
 │   └── Flow
 │       └── mybotflow.json
 ├── index.js
+├── LICENSE
 ├── package.json
 ├── package-lock.json
 ├── README.md
@@ -31,7 +32,8 @@ O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conve
 │   │   ├── Take.Execellence.png
 │   │   ├── Take.Higher.png
 │   │   ├── Take.Simple.png
-│   │   └── Take.Team.png
+│   │   ├── Take.Team.png
+│   │   └── test-cov.png
 │   ├── routes.js
 │   ├── services
 │   │   └── repo.service.js
@@ -87,6 +89,14 @@ $ npm run test
 # test coverage
 $ npm run test:cov
 ```
+
+<details>
+  <summary><strong>Imagem de cobertura de test</strong></summary><br />
+
+ | [<img alt="Screenshot da cobertura de test" height="500" width="auto" src="./src/images/test-cov.png">](./src/images/test-cov.png "Screenshot do chatbot") |
+ |------------------------------------------------------------------------------------------------------------------------------------------------------------|
+ | _imagem-do-comando:_  `npm run test:cov`                                                                                                                   |
+</details>
 
 ## Screenshot
 
