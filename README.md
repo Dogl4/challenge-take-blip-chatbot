@@ -7,6 +7,14 @@
 O desafio consiste em desenvolver um chatbot que responda segundo um fluxo conversacional, [na plataforma da Take Blip](https://portal.blip.ai/ "Link da plataforma"). Além disso, o chatbot deve consumir dados de uma API, feita em JavaScript ou C#, para realizar a resposta.
 
 <details>
+  <summary><strong>Screenshot</strong></summary><br />
+
+| [<img alt="Screenshot do chatbot" height="400" width="auto" src="./src/images/chat-bot.gif">](./src/images/chat-bot.gif "Screenshot do chatbot") |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| _chat-bot-gif_
+</details>
+
+<details>
   <summary><strong>Estrutura do repositório</strong></summary><br />
 
 ```bash
@@ -98,16 +106,11 @@ $ npm run test:cov
  | _imagem-do-comando:_  `npm run test:cov`                                                                                                                   |
 </details>
 
-## Screenshot
-
-| [<img alt="Screenshot do chatbot" height="500" width="auto" src="./src/images/chat-bot.gif">](./src/images/chat-bot.gif "Screenshot do chatbot") |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| _chat-bot-gif_
-
 ## Links
 
   - [API](https://dogl4-take-blip.herokuapp.com/ "Api no Heroku")
   - [Chat-bot](https://pedro-douglas-pereira-barreto-rgf3e.chat.blip.ai/?appKey=bG9yYXZhbG9yZXNkYXRha2UxOmRjOTJjMDFjLTlmNzQtNDNmYi05ZGQ3LWQ2MWE5MjUwMjE5Mw== "Link do chatbot dentro da blip")
+    - > Nota: O chat-bot as vezes pode demorar a responder, se isto ocorrer mande mensagem de novo ou click de novo na opção do carousel, por testes feitos.
 
 ## License
 
